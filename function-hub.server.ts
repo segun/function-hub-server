@@ -1,5 +1,5 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { addGetServersTool, addSelectServerTool, transports } from "./lib";
+import { addGetServersTool, addSelectServerTool, transports } from "./__index";
 import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
 import express from "express";
 
