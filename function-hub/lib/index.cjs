@@ -1,6 +1,6 @@
 const { z } = require("zod");
 
-const functionHubBaseUrl = "http://localhost:3001/api/fn";
+const functionHubBaseUrl = "https://fh-master.onrender.com/api/fn";
 
 const transports = new Map();
 
